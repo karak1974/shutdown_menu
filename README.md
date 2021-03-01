@@ -1,5 +1,5 @@
 # Shutdown menu
-Shutdown menu for linux, with built in i3 config  
+Simple shutdown menu for linux, with built in i3 config  
 ## Installation
 `chmod +x install.sh && ./install.sh`  
 
