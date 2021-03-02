@@ -3,6 +3,7 @@
 main () {
 sudo cp shutdown_module.py /usr/bin/shutdown_module
 sudo chmod +x /usr/bin/shutdown_module
+pip install PyGObject
 
 read -p "Do you want to add it to i3 config?[Y/N]: " menu
     if [[ $menu == "Y"  || $menu == "Yes" || $menu == "y" || $menu == "yes" ]]
